@@ -1,5 +1,5 @@
 #!/bin/sh
-set -u
+set -eu
 
 # Start the cron daemon
 crond

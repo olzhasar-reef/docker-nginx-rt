@@ -1,5 +1,5 @@
 #!/bin/sh
-set -u
+set -eu
 
 # Run certbot renew in the background on startup
 ./scripts/run_certbot &
